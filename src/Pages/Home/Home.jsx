@@ -6,6 +6,7 @@ import OurProcess from "../../Components/OurProcess/OurProcess";
 import OurPassion from "../../Components/OurPassion/OurPassion";
 import { FaLeaf, FaCogs } from "react-icons/fa";
 import { GiHighGrass, GiCow } from "react-icons/gi";
+import Subscription from "../../Components/Subscrition/Subscription";
 
 const Home = () => {
   const heroDetails = {
@@ -51,6 +52,7 @@ const Home = () => {
       <OurProducts />
       <OurProcess />
       <OurPassion />
+      <Subscription />
     </>
   );
 };

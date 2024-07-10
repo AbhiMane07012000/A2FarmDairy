@@ -41,7 +41,7 @@ const PassionSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {passionDetails.map((detail) => (
-            <div key={detail.id} className="flex flex-col items-start" data-aos="flip-left"
+            <div key={detail.id} className="flex flex-col items-start" data-aos="zoom-out"
             data-aos-duration="3000">
               <h2 className="flex items-center text-lg font-bold mb-2">
                 {detail.icon}

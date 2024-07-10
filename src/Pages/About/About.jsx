@@ -1,20 +1,20 @@
-import React from 'react'
-import OurProcess from '../../Components/OurProcess/OurProcess'
-import OurPassion from '../../Components/OurPassion/OurPassion'
-import HeroSection from '../../Components/HeroSection/HeroSection'
-import { FaGift, FaSnowflake,FaHome } from "react-icons/fa";
+import React from "react";
+import OurProcess from "../../Components/OurProcess/OurProcess";
+import OurPassion from "../../Components/OurPassion/OurPassion";
+import HeroSection from "../../Components/HeroSection/HeroSection";
+import { FaGift, FaSnowflake, FaHome } from "react-icons/fa";
 import { FaBucket } from "react-icons/fa6";
-import { GiFullWoodBucket, GiCow } from "react-icons/gi";
-import { LuMilk } from "react-icons/lu";
+import Subscription from "../../Components/Subscrition/Subscription";
 
 const About = () => {
   const heroDetails = {
     Homearticle: [
       {
         id: 1,
-        icon:<FaBucket size={30} className="inline mr-4 text-cyan-600" />,
+        icon: <FaBucket size={30} className="inline mr-4 text-cyan-600" />,
         heading: "Milking",
-        paragraph:"Our cows are maintained and milked hygienically two times a day.",
+        paragraph:
+          "Our cows are maintained and milked hygienically two times a day.",
       },
       {
         id: 2,
@@ -34,23 +34,29 @@ const About = () => {
         id: 4,
         icon: <FaHome size={30} className="inline mr-4 text-cyan-600" />,
         heading: "Home Delivery",
-        paragraph:
-          "Packed milk is delivered to the customer home by 7 am.",
+        paragraph: "Packed milk is delivered to the customer home by 7 am.",
       },
     ],
-    homeImage: "./HomeHero.png",
-    homeHeading:"WELCOME TO",
-    homeSubHeading:"A2 DAIRY FARM",
-    homeParagraph:"We follow the farm-to-home concept. We avoid many layers in between. After milking is done, milk is chilled at remote chilling centers, transported to our main plant, packed, and delivered to your home as quickly as possible with a strict cold chain."
+    homeImage: "./AboutHero.png",
+    homeHeading: "WELCOME TO",
+    homeSubHeading: "A2 DAIRY FARM",
+    homeParagraph:
+      "We follow the farm-to-home concept. We avoid many layers in between. After milking is done, milk is chilled at remote chilling centers, transported to our main plant, packed, and delivered to your home as quickly as possible with a strict cold chain.",
   };
   return (
-    
-   <>
-   <HeroSection  heroDetails={heroDetails}/>
-   <OurProcess />
-   <OurPassion />
-   </>
-  )
-}
+    <>
+      <header className="text-white" style={{backgroundImage:"url('./passion_bg.jpg')"}}>
+        <h1 className="text-2xl md:text-4xl ps-8 pt-7 font-bold">ABOUT</h1>
+        <p className="text-sm md:text-lg ps-8 py-6 ">
+          DEDICATED IN SERVRING COWS
+        </p>
+      </header>
+      <HeroSection heroDetails={heroDetails} />
+      <OurProcess />
+      <OurPassion />
+      <Subscription />
+    </>
+  );
+};
 
-export default About
+export default About;

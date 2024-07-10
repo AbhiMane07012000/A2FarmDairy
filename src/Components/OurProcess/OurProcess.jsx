@@ -52,7 +52,7 @@ const OurProcess = () => {
             key={step.id}
             className="text-center p-6 border rounded-lg shadow-md bg-white"
             aria-labelledby={`step-title-${step.id}`}
-            data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-duration="3000"
           >
             <div className="flex justify-center mb-4">{step.icon}</div>
