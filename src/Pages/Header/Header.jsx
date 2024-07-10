@@ -9,7 +9,7 @@ const Header = () => {
     };
 
     return (
-        <header className="bg-slate-800">
+        <header className="bg-slate-800" data-aos="fade-down" data-aos-duration="1500">
             <nav className="container mx-auto px-6 py-3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
@@ -36,7 +36,7 @@ const Header = () => {
                         </button>
                     </div>
                     {/* Desktop navigation */}
-                    <ul className="hidden md:flex md:items-center md:w-auto">
+                    <ul className="hidden md:flex md:items-center md:w-auto" data-aos="fade-down" data-aos-duration="1500">
                         <li>
                             <NavLink
                                 to="/"
@@ -66,7 +66,7 @@ const Header = () => {
             </nav>
 
             {/* Mobile menu */}
-            <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+            <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`} >
                 <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     <li>
                         <NavLink

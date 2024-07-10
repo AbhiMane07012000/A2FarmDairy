@@ -34,8 +34,8 @@ const PassionSection = () => {
     <section className="relative bg-cover bg-center py-10" style={{ backgroundImage: "url('./passion_bg.jpg')" }}>
       <div className="bg-black bg-opacity-60 w-full h-full absolute top-0 left-0"></div>
       <div className="relative z-10 text-white p-10 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-normal mb-4">OUR <span className="font-bold text-yellow-600">PASSION</span></h2>
-        <p className="max-w-xl mb-10">
+        <h2 className="text-4xl font-normal mb-4"data-aos="fade-right" data-aos-duration="3000">OUR <span className="font-bold text-yellow-600">PASSION</span></h2>
+        <p className="max-w-xl mb-10" data-aos="fade-right" data-aos-duration="3000">
           We have set out to serve Gomathas and follow our tradition. We believe our tradition is rich and enables us to live a happy and healthy lifestyle. Our Gomathas play a very crucial role in our tradition.
         </p>
         

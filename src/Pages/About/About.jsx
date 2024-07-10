@@ -45,7 +45,7 @@ const About = () => {
   };
   return (
     <>
-      <header className="text-white" style={{backgroundImage:"url('./passion_bg.jpg')"}}>
+      <header className="text-white bg-cover bg-center" style={{backgroundImage:"url('./passion_bg.jpg')"}}>
         <h1 className="text-2xl md:text-4xl ps-8 pt-7 font-bold">ABOUT</h1>
         <p className="text-sm md:text-lg ps-8 py-6 ">
           DEDICATED IN SERVRING COWS

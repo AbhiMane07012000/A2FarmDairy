@@ -26,8 +26,7 @@ export default function Carousel() {
   ];
 
   return (
-    <section aria-labelledby="slider-heading">
-      <h2 id="slider-heading" className="sr-only">Image Carousel</h2>
+    <section aria-labelledby="slider" data-aos="zoom-out" data-aos-duration="3000">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

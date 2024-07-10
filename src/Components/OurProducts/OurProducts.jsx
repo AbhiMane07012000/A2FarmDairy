@@ -48,7 +48,7 @@ const OurProducts = () => {
   return (
     <section aria-labelledby="our-products-heading">
       <header className="text-center p-10">
-        <h2 id="our-products-heading" className="text-2xl lg:text-5xl font-bold text-cyan-500">
+        <h2 id="our-products-heading" className="text-2xl lg:text-5xl font-bold text-cyan-500" data-aos="zoom-in" data-aos-duration="3000">
           Our Products
         </h2>
       </header>
@@ -65,6 +65,7 @@ const OurProducts = () => {
         }}
         modules={[Autoplay, Pagination]}
         className="mySwiper my-10"
+        data-aos="zoom-out" data-aos-duration="1500"
       >
         {products.map((product) => (
           <SwiperSlide key={product.id}>
