@@ -1,10 +1,9 @@
 import React from "react";
+import SEO from "../../Components/SEO/SEO";
 import {
   FaPhoneAlt,
   FaEnvelope,
   FaWhatsapp,
-  FaLink,
-  FaExternalLinkAlt,
 } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { NavLink } from "react-router-dom";
@@ -14,6 +13,12 @@ const Contact = () => {
   return (
    
     <>
+     <SEO
+        title="A2 Dairy Farm"
+        description="Farm Fresh Organic A2 Gir Cow Ghee, A2 Desi Cow Milk, Buffalo Milk"
+        keywords="organic milk,organic cow milk,organic milk pune,organic cow milk pune,a1 milk,a1 milk pune,raw milk,organic raw milk,desi cow milk,desi milk,a2 milk,a2 desi milk,a2 cow milk,paneer,organic paneer,home made paneer,paneer pune,natural paneer,desi cow paneer,a2 paneer,organic curd,natural curd,home made curd,organic curd pune,desi cow curd,a2 curd,desi curd,desi curd pune,a2 curd pune,desi cow ghee,a2 desi ghee,where can i buy a2 milk,gir cow milk,malnad milk,malnad cow milk,hallikar cow milk,a2 desi ghee company,raw desi cow milk,buy a2 cow milk,buy a2 raw milk,a2 milk company,where can i buy desi cow milk,best a2 milk company,buttermilk,desi cow buttermilk"
+        ImgUrl="./Contact.jpg"
+      />
     <header className="text-white bg-cover bg-center" style={{backgroundImage:"url('./passion_bg.jpg')"}}>
     <h1 className="text-2xl md:text-4xl ps-8 pt-7 font-bold">CONTACT</h1>
      <p className="text-sm md:text-lg ps-8 py-6 ">WE WILL BE HAPPY TO ASSIST YOU</p>
@@ -32,7 +37,7 @@ const Contact = () => {
                   <NavLink to="tel:+91 7083129973" className="text-gray-600">
                     +91 7083129973
                   </NavLink>
-                  <NavLink to="https://wa.link/e1i9xz">
+                  <NavLink to="https://wa.link/e1i9xz" target="_blank">
                     <button className="mt-2 flex items-center bg-green-500 text-white px-4 py-2 rounded">
                       <FaWhatsapp className="mr-2" />
                       CHAT VIA WHATSAPP
@@ -59,6 +64,7 @@ const Contact = () => {
               <NavLink
                 to="mailto:gircowfarm103@gmail.com"
                 className="text-sm md:text-md lg:text-lg"
+                target="_blank"
               >
                 GIRCOWFARM103@GMAIL.COM - SALES
               </NavLink>{" "}
@@ -88,7 +94,7 @@ const Contact = () => {
                 className="w-full h-64 rounded-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.6290359589266!2d73.89385197438648!3d18.63574796564753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70061218555%3A0xd380d26219cf9cc4!2sCharholi%20374%20Gandharva%20Park%2C%20PathareMala%2C%20Charholi%20Budruk%2C%20Pune%2C%20Maharashtra%20412105!5e0!3m2!1sen!2sin!4v1720592492500!5m2!1sen!2sin"
                 allowFullScreen=""
-                loading="lazy"
+                loading=""
                 title="Google Map"
               ></iframe>
             </div>

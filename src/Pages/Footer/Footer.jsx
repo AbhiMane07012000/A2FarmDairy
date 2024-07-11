@@ -10,13 +10,12 @@ const Footer = () => {
           &copy; 2024 A2 Farm. All rights reserved.
         </p>
         <div className="mt-4">
-          <NavLink to="https://www.instagram.com/a2_farm103" className="text-gray-400 hover:text-white mx-2">
+          <NavLink to="https://www.instagram.com/a2_farm103" target="_blank" className="text-gray-400 hover:text-white mx-2">
             Instagram
           </NavLink>
-          <NavLink to="https://wa.link/e1i9xz" className="text-gray-400 hover:text-white mx-2">
+          <NavLink  to="https://wa.link/e1i9xz" target="_blank" className="text-gray-400 hover:text-white mx-2">
             WhatsApp
           </NavLink>
-         
         </div>
       </div>
     </footer>
