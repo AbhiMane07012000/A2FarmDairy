@@ -49,12 +49,19 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="A2 Dairy Farm"
+        title="Pure Milk Haven"
         description="Farm Fresh Organic A2 Gir Cow Ghee, A2 Desi Cow Milk, Buffalo Milk"
-        keywords="organic milk,organic cow milk,organic milk pune,organic cow milk pune,a1 milk,a1 milk pune,raw milk,organic raw milk,desi cow milk,desi milk,a2 milk,a2 desi milk,a2 cow milk,paneer,organic paneer,home made paneer,paneer pune,natural paneer,desi cow paneer,a2 paneer,organic curd,natural curd,home made curd,organic curd pune,desi cow curd,a2 curd,desi curd,desi curd pune,a2 curd pune,desi cow ghee,a2 desi ghee,where can i buy a2 milk,gir cow milk,malnad milk,malnad cow milk,hallikar cow milk,a2 desi ghee company,raw desi cow milk,buy a2 cow milk,buy a2 raw milk,a2 milk company,where can i buy desi cow milk,best a2 milk company,buttermilk,desi cow buttermilk"
+        keywords="Pure Milk Haven,pure milk haven netlify,organic milk,organic cow milk,organic milk pune,organic cow milk pune,a1 milk,a1 milk pune,raw milk,organic raw milk,desi cow milk,desi milk,a2 milk,a2 desi milk,a2 cow milk,paneer,organic paneer,home made paneer,paneer pune,natural paneer,desi cow paneer,a2 paneer,organic curd,natural curd,home made curd,organic curd pune,desi cow curd,a2 curd,desi curd,desi curd pune,a2 curd pune,desi cow ghee,a2 desi ghee,where can i buy a2 milk,gir cow milk,malnad milk,malnad cow milk,hallikar cow milk,a2 desi ghee company,raw desi cow milk,buy a2 cow milk,buy a2 raw milk,a2 milk company,where can i buy desi cow milk,best a2 milk company,buttermilk,desi cow buttermilk"
         ImgUrl="./Home.jpg"
       />
       <Carousel />
+      <marquee>
+        <p>
+          Start your day right with fresh buffalo, Gir Cow milk delivered to your
+          doorstep daily by A2 Dairy Farm🐃! Taste the richness, embrace the
+          health. Subscribe now and enjoy pure goodness every morning! 🥛🌿
+        </p>
+      </marquee>
       <HeroSection heroDetails={heroDetails} />
       <OurProducts />
       <OurProcess />

@@ -7,6 +7,7 @@ const SEO = ({ title, description, keywords ,ImgUrl }) => {
  <title>{title}</title>
  <link rel="canonical" href={window.location.href} />
  <meta name="description" content={description} />
+ <meta name="author" content={title} />
  <meta name="keywords" content={keywords} />
  <meta name="robots" content="index, follow" />
  <meta name="viewport" content="width=device-width, initialscale=1" />
